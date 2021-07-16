@@ -297,7 +297,7 @@ return [
         'Magento_Translation' => 1,
         'Magento_TwoFactorAuth' => 0,
         'Magento_GoogleOptimizer' => 1,
-        'Magento_Ups' => 1,
+        'Magento_Ups' => 0,
         'Magento_SalesSampleData' => 1,
         'Magento_CatalogUrlRewriteGraphQl' => 1,
         'Magento_CatalogAnalytics' => 1,
