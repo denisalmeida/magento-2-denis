@@ -1,0 +1,1 @@
+C:/xampp/htdocs/magento/lib/web/mage/translate-inline.js
