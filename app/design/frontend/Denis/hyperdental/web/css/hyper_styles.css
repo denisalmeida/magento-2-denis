@@ -1,14 +1,20 @@
-#rodape {
-    background-color: #787878;
-  color: #ffffff;
-  font-size: 12px;
-  padding: 2% 6%;
 
+
+.page-wrapper {
+    min-height: 0;
 }
+
+#maincontent {
+padding-top: 60px;
+}
+
+
+/* Header Custom*/
 
 .page-header {
 background-color: #FD0000;
 padding-top:20px;
+
 }
 
 img#header-login {
@@ -45,8 +51,8 @@ margin-bottom: -23px;
   display:inline-block;
   position: relative;
   border-radius: 6px;
-  -webkit-box-shadow: 0px 8px 17px -2px rgba(0,0,0,0.35); 
-  box-shadow: 0px 8px 17px -2px rgba(0,0,0,0.35);
+  -webkit-box-shadow: 0px 8px 17px -2px rgba(0, 0, 0, 0.1); 
+  box-shadow: 0px 8px 17px -2px rgba(0,0,0,0.1);
 } 
 
 #search-box input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -67,6 +73,13 @@ margin-bottom: -23px;
 .footer.content .links a, .footer.content .links strong {
     padding: 0px;
   }
+
+/* Catalog Product*/
+
+.swatch-option {
+    height: 30px;
+  }
+
 
   /* Responsive Start */
 
@@ -96,6 +109,17 @@ margin-bottom: -23px;
     
   }
 
+
+/* Rodapé */
+
+  #rodape {
+    background-color: #787878;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 2% 6%;
+
+}
+
   @media (min-width: 768px) { 
       img#logo-hyper {
           max-width: 60%;
@@ -107,3 +131,6 @@ margin-bottom: -23px;
         display: none;
     }
   }
+
+
+  
