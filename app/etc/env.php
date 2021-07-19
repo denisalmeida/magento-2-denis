@@ -64,7 +64,7 @@ return [
         'collections' => 1,
         'reflection' => 1,
         'db_ddl' => 1,
-        'compiled_config' => 0,
+        'compiled_config' => 1,
         'eav' => 1,
         'customer_notification' => 1,
         'config_integration' => 1,
