@@ -1,0 +1,136 @@
+
+
+.page-wrapper {
+    min-height: 0;
+}
+
+#maincontent {
+padding-top: 60px;
+}
+
+
+/* Header Custom*/
+
+.page-header {
+background-color: #FD0000;
+padding-top:20px;
+
+}
+
+img#header-login {
+ max-width: 30%;
+}
+img#header-cart {
+    max-width: 8%;
+}
+
+#hyper-nav {
+    border-top: 1px solid #ffffff6b;
+}
+
+#hyper-nav .nav-link {
+    color:#fff !important;
+    font-size: 16px;
+}
+#search-box  {
+margin-bottom: -23px;
+}
+
+#search-box button {
+    background-color: #fff;
+}
+
+#search-box input {
+  height: 55px;
+  padding: 0px 0px 0px 20px;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #6e757c;
+  font-weight: 600;
+  display:inline-block;
+  position: relative;
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 8px 17px -2px rgba(0, 0, 0, 0.1); 
+  box-shadow: 0px 8px 17px -2px rgba(0,0,0,0.1);
+} 
+
+#search-box input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #6e757c;
+    opacity: 1; /* Firefox */
+  }
+
+#search-box:after {
+    font-family: 'FontAwesome';
+    content: '\f002';
+    position: absolute;
+    right: 13px;
+    top: 13px;
+    font-size: 18px;
+    color: #999;
+}
+
+.footer.content .links a, .footer.content .links strong {
+    padding: 0px;
+  }
+
+/* Catalog Product*/
+
+.swatch-option {
+    height: 30px;
+  }
+
+
+  /* Responsive Start */
+
+  @media (max-width: 767px) {
+    img#logo-hyper {
+        max-width: 80%;
+    }
+    img#menu-mobile {
+        max-width: 35% ;
+    }
+    img#header-login-user {
+        max-width: 35% ;
+    }
+    #hyper-nav {
+        display: none;
+    }
+    #header-login {
+        display: none;
+    }
+    img#header-cart {
+        max-width: 35% ;
+    }
+    #rodape {
+
+        padding: 8% 6%;
+      }
+    
+  }
+
+
+/* Rodapé */
+
+  #rodape {
+    background-color: #787878;
+  color: #ffffff;
+  font-size: 12px;
+  padding: 2% 6%;
+
+}
+
+  @media (min-width: 768px) { 
+      img#logo-hyper {
+          max-width: 60%;
+      }
+    img#menu-mobile {
+        display: none ;
+    }
+    img#header-login-user {
+        display: none;
+    }
+  }
+
+
+  
